@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+#ignore test files
+test.cpp
+
+#vscode
+.vscode
