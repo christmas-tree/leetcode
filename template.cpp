@@ -5,24 +5,19 @@
 
 #include <iostream>
 #include <vector>
+#include "debugtools.h"
 using namespace std;
 
-void print(vector<int> nums);
-
-
-
+// function
 
 
 // Driver code
 int main() {
     int target = 5;
     vector<int> nums = {1,2,3};
-    function(nums);
-    print(nums);
-}
+    
+    // function(nums);
+    // print(nums);
 
-void print(vector<int> nums) {
-    for (int i = 0; i < nums.size(); i++) {
-        cout << nums[i] << " ";
-    }
+    // print(function(nums));
 }
