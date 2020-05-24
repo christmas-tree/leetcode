@@ -17,5 +17,5 @@ javascript: (function () {
       h = "H";
       break;
   }
-  prompt("Result: ", h.toUpperCase() + "_" + s);
+  prompt("Result: ", h + "_" + s);
 })();
